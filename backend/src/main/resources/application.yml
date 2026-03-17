@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: tableorder-backend
+
+  datasource:
+    url: jdbc:h2:file:./data/tableorder;AUTO_SERVER=TRUE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    defer-datasource-initialization: true
+
+  sql:
+    init:
+      mode: always
+
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 5MB
+
+  codec:
+    max-in-memory-size: 5MB
+
+server:
+  port: 8080
+
+file:
+  upload-dir: ./uploads/images

@@ -1,11 +1,18 @@
 {
   "name": "default",
+  "allowedTools": ["fs_read", "fs_write", "execute_bash"],
   "hooks": {
     "postToolUse": [
       {
         "matcher": "fs_write",
         "command": ".kiro/hooks/auto-commit.sh",
         "description": "Auto commit and push after file writes"
+      }
+    ],
+    "stop": [
+      {
+        "command": ".kiro/hooks/auto-restart.sh",
+        "description": "Auto restart backend/frontend after code changes"
       }
     ]
   }

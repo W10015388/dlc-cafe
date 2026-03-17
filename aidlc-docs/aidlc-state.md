@@ -38,8 +38,8 @@
   - [x] NFR Requirements - EXECUTE
   - [x] NFR Design - EXECUTE
   - [ ] Infrastructure Design - SKIP (로컬 개발 환경)
-  - [ ] Code Generation - EXECUTE
-- [ ] Build and Test - EXECUTE
+  - [x] Code Generation - EXECUTE
+- [x] Build and Test - EXECUTE
 
 ### OPERATIONS PHASE
 - [ ] Operations (PLACEHOLDER)

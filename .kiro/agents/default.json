@@ -1,0 +1,12 @@
+{
+  "name": "default",
+  "hooks": {
+    "postToolUse": [
+      {
+        "matcher": "fs_write",
+        "command": ".kiro/hooks/auto-commit.sh",
+        "description": "Auto commit and push after file writes"
+      }
+    ]
+  }
+}

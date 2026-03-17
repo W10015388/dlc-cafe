@@ -1,0 +1,55 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1773713626203,
+  "projectRoot": "/Users/kangmin/dev/aidlc-workshop",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "aidlc-docs": {
+      "path": "aidlc-docs",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1773713626198,
+      "keyFiles": [
+        "aidlc-state.md",
+        "audit.md"
+      ]
+    },
+    "requirements": {
+      "path": "requirements",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1773713626199,
+      "keyFiles": [
+        "constraints.md",
+        "table-order-requirements.md"
+      ]
+    }
+  },
+  "hotPaths": [],
+  "userDirectives": []
+}
